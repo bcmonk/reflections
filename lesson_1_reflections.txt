@@ -1,0 +1,26 @@
+The + and - signs made finding the diff quite easy
+It's intuitive to know that plus means it is something new
+minus symbol means the new file is missing something
+The less text per line, the easier it was to find the typo
+
+Having access to the entire history allows you to:
+find bugs
+re-implement previous versions easily
+re-implement parts of former versions
+
+Pros of manually choice is that you get to deciden what works best for you
+Cons - if you aren't disciplined or you are forgetful, you can get into trouble
+
+Multiple file commits are helpful for saving related files, this is common in software development.
+Git is a repository primary for use in software development and configuration management.
+Google Docs tends to be a place used to keep specific material, like a document or presentation.  
+The use cases for tightly related files isn't common in this case.
+
+git log can tell you when files were changed
+git log will show you the commit message as well to know if that commit is what you are looking for
+git diff helps you to see the specific change made from one commit to the next
+
+you can be more confident that you can revert to a known good state if you break something
+if you practice good discipline in how you commit, it should cut down troubleshooting time even more
+
+I would like to begin using git to commit changes to gitHub
