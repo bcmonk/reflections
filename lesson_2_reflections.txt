@@ -1,2 +1,6 @@
 when you initialize a new repo it creates the metadata required to track the file versions
 You need to do it in order to create the initial metadata
+
+staging is essentially the list of files from your working dir that you want to commit to the repo
+the working dir is all your files at that point in time
+Staging allows you to oprganize what will be included in the commit without yet committing prematurely
